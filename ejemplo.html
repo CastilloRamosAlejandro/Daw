@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desplegable al hacer click en imagen</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .img-clickable {
+            cursor: pointer;
+            border: 1px solid black;
+        }
+        .content-box {
+            border: 1px solid #8B0000; /* Rojo oscuro */
+            margin-top: 10px;
+            height: 150px; /* Altura del cuadro */
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-5">
+    <div class="image-container">
+        <!-- Imagen clickeable para el colapso -->
+        <img src="https://via.placeholder.com/200" class="img-clickable" alt="Image" data-bs-toggle="collapse" data-bs-target="#collapseContent">
+    </div>
+
+    <!-- Contenido desplegable -->
+    <div id="collapseContent" class="collapse">
+        <div class="content-box">
+            <!-- Aquí puedes agregar el contenido adicional -->
+            <p>Este es el contenido que se despliega al hacer clic en la imagen.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS (necesario para el funcionamiento del colapso) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+body{
+    background-image:url(./media/silksongfondo.jpg);
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+    background-attachment: fixed;
+    display: block;
+    justify-content: center;
+    height:200vh;       
+
+}
+.imagen{
+    margin-left:30%;    
+    width:40vw; 
+    height:30vh
+}
+.botonsilksong{
+    background-color: transparent;
+    border: none;
+    margin-top: 1%;
+    margin-left: 3%;
+    height: 13em;
+    width: 34em;
+    background-image:url(./media/boton.webp);
+    color: white;
+    font-family: hollow;
+}
+.botonsilksonggod{
+    background-color: transparent;
+    border: none;
+    margin-top: 1%;
+    margin-left: 3%;
+    height: 12em;
+    width: 20.4em;
+    background-image:url(./media/botongodseeker.webp);
+    color: white;
+    font-family: hollow;
+}
+@font-face { font-family: hollow; src: url(./media/font/Trajan\ Pro\ Regular.ttf); } 

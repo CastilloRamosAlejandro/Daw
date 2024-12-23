@@ -1,0 +1,13 @@
+@media print {
+    .encabezado{
+        visibility: hidden;
+    }
+    .footer{
+        visibility: hidden;
+    }
+    form{
+        margin-right: 50%;
+        align-items: center;
+    }
+}
+

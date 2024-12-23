@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.css">
+    <title>Ejercicio5</title>
+    <style>
+        /* Se asegura que el html y el body ocupen todo el alto de la pantalla */
+        html,body{
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container h-100">
+        <!-- Cabecera que ocupa todo el ancho (12 columnas) -->
+        <div class="row  ">
+            <div class="col-md-12 col-lg-12 col-xl-12 col-sm-12 col-12 border border-dark border-2 " style="background-color:green">cabecera</div>
+        </div>
+        
+        <div class="row">
+            <!-- Columna roja que ocupa 2 columnas en tamaños medianos y superiores -->
+            <div class="col-md-2 col-lg-2 col-xl-2 col-sm-2 col-12 border border-dark border-2 bg-danger">rojo</div>
+
+            <div class="col-md-10 col-lg-10 col-xl-10 col-sm-10 col-12 border border-dark border-2">
+                <!-- Fila interna con 1 columna morada y 2 naranjas -->
+                <div class="row">
+                    <div class="col-md-12 col-lg-12 col-xl-12 col-sm-12 col-12 border-dark border-2 border border-dark border-1" style="background-color: violet;">morada</div>
+                    <div class="col-md-6 col-lg-6 col-xl-6 col-sm-12 col-12 border-dark border-2 border border-dark border-1" style="background-color: orange;">naranja</div>
+                    <div class="col-md-6 col-lg-6 col-xl-6 col-sm-12 col-12 border-dark border-2 border border-dark border-1" style="background-color: orange;">naranja</div>
+                </div>
+                
+                <!-- Fila interna con columnas azules -->
+                <div class="row">
+                    <div class="col-md-2 col-lg-2 col-xl-2 col-sm-4 col-6 border border-dark border-2" style="background-color:blue">azul</div>
+                    <div class="col-md-2 col-lg-2 col-xl-2 col-sm-4 col-6 border border-dark border-2" style="background-color:blue">azul</div>
+                    <div class="col-md-4 col-lg-4 col-xl-4 col-sm-4 col-6 border border-dark border-2" style="background-color:blue">azul</div>
+                    <div class="col-md-2 col-lg-2 col-xl-2 col-sm-4 col-6 border border-dark border-2" style="background-color:blue">azul</div>
+                    <div class="col-md-2 col-lg-2 col-xl-2 col-sm-4 col-6 border border-dark border-2" style="background-color:blue">azul</div>
+                    <!-- Otras columnas similares -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 col-sm-4 col-6 border border-dark border-2" style="background-color:blue">azul</div>
+                    <div class="col-md-2 col-lg-2 col-xl-2 col-sm-4 col-6 border border-dark border-2" style="background-color:blue">azul</div>
+                    <div class="col-md-4 col-lg-4 col-xl-4 col-sm-4 col-6 border border-dark border-2" style="background-color:blue">azul</div>
+                    <div class="col-md-2 col-lg-2 col-xl-2 col-sm-4 col-6 border border-dark border-2" style="background-color:blue">azul</div>
+                    <div class="col-md-2 col-lg-2 col-xl-2 col-sm-4 col-6 border border-dark border-2" style="background-color:blue">azul</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Pie de página que ocupa todo el ancho -->
+        <div class="row">
+            <div class="col border border-dark col-md-12 col-lg-12 col-xl-12" style="background-color: green;">Pie</div>
+        </div>
+    </div>
+</body>
+</html>
+
+<!--
+Respuesta a la pregunta:
+Para resolver el que no tienen el mismo tamaño pondría todos con 2 de tamaño y los centraria con un margin left.
+-->

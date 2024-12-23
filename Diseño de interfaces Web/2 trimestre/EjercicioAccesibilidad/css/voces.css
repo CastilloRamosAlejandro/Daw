@@ -1,0 +1,14 @@
+
+
+@media speech{
+    .Grave{
+    voice-family: male;
+    voice-volume: 6dB;
+    }
+
+    .Aguda{
+        voice-family:female;
+        voice-volume:6dB;
+    }
+}
+
